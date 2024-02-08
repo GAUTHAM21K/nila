@@ -1,16 +1,27 @@
+
+
 body{
-    background-color: #131316;
-    color: #ffff;
+    background-color: #590d22;
+    background-image: url(pnghive.png);
+    background-blend-mode: lighten;
+    color: #ffff ;
+    padding: 10px;
     margin: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
-
 h1,h2{
+
+    font-family: "Love Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+    padding-left: 10px;
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
+
 }
 
 .hidden{
@@ -23,5 +34,7 @@ h1,h2{
     opacity: 1;
 
     transform: translateX(0%);
+    text-shadow: 0 0 5px #ffccd5;
+
 }
 
